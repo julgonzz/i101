@@ -1,0 +1,45 @@
+.head {
+    font-size: 40xpx;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0;
+    background-color:#0066cc;
+    color: white;
+    padding: 30px;
+    z-index: 1000;
+    border: 5px solid darkblue;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkblue;
+    border: 5px solid darkblue;
+    position: sticky;
+    top: 0;
+    
+    }
+    
+    li { 
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        padding: 10px;
+        background-color: #0066cc;
+        color: white;
+    }
+    
+    .active {
+        display: block;
+        padding: 10px;
+        background-color:aliceblue;
+        color: darkblue;
+    
+    }
+    
+    li a:hover {background-color:#0066cc;
+                color: darkblue;
+    }
